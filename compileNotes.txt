@@ -1,0 +1,5 @@
+g++ -c ItemNode.cpp            // produces the ItemNode.o file
+g++ -c main.cpp               // produces the main.o file
+g++ -o out.exe main.o myclass.o // produces the myapp executable
+
+g++ -o myexecutable first.cpp second.cpp third.cpp
